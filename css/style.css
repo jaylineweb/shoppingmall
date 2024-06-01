@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+/* 버튼 색상 별도 변경 */
+.btn-outline-success{color:chocolate;border-color:chocolate;}
+.btn-outline-success:hover{color:#fff;background-color:chocolate;border-color:chocolate;}
