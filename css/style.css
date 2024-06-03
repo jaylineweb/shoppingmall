@@ -3,3 +3,30 @@
 /* 버튼 색상 별도 변경 */
 .btn-outline-success{color:chocolate;border-color:chocolate;}
 .btn-outline-success:hover{color:#fff;background-color:chocolate;border-color:chocolate;}
+
+footer{
+    background-color:#19110b;
+
+}
+.first-line{
+    border-bottom:1px solid #392d23;
+    color:#ffffff;
+}
+.second-line .row .col:nth-child(1){color:#ffffff;}
+.second-line a{
+    color:#fff;
+    text-decoration:none;
+}
+.third-line{display:none;}
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align:center;
+    }
+    .second-line{
+        padding-right:2rem;
+        padding-left:2rem;
+        border-bottom:1px solid #392d23;
+    }
+    .third-line{display:block;}
+}
